@@ -78,16 +78,58 @@ header{
     background: url("images/icons/bag.svg") center no-repeat;
 }
 
+.span{
+
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 4rem;
+    background:#0071E3 ;
+    padding: 1.25rem;  
+}
+
+.span a{
+
+color: cornsilk;
+}
+
+.span a:hover{
+
+    text-decoration: underline;
+}
+
+.covid-span{
+    
+
+
+    text-align: center;
+    
+    font-size: 1.1rem;
+    padding: 1.25rem;  
+    
+}
+
+.covid-span a{
+
+    display: inline-block;
+    color: #06c;
+    text-decoration: none;
+}
+
+.covid-span a:hover{
+
+    text-decoration: underline;
+}
+
 /*iphone-se Section*/
 .iphone-se{
-    height: 59.2rem;
+    height: 50.2rem;
     background-size: 100%;
     background: url("images/hero/iphonese/bg1.jpg");
-    margin-top: -3.9rem;
-    background-size: auto 54.9rem;
+   margin-top: -0.2rem; 
+    background-size: auto 49.9rem;
     background-position: center;
     background-repeat: no-repeat;
-    border-top: 6rem solid #fff;
+    
     
 }
 
@@ -164,47 +206,102 @@ header{
 
 
 
-@media screen and (max-width: 1068px){
+
+
+
+
+@media screen and (max-width: 360px){
+
+    .span{
+
+        text-align: center;
+        font-size: 1.7rem;
+        margin-top: 4rem;
+        background:#0071E3 ;
+        padding: 1.25rem;  
+    }
+    
+    .span a{
+    
+    color: cornsilk;
+    }
+    
+    .span a:hover{
+    
+        text-decoration: underline;
+    }
+    
+    .covid-span{
+        
+    
+    
+        text-align: center;
+        
+        font-size: 1.6rem;
+        padding: 1.25rem;  
+        
+    }
+    
+    .covid-span a{
+    
+        display: inline-block;
+        color: #06c;
+        text-decoration: none;
+    }
+    
+    .covid-span a:hover{
+    
+        text-decoration: underline;
+    }
+
+    
 
     /*iPhone-se Section*/
     .iphone-se{
         background-size: 100%;
-        background: url("images/hero/iphonese/bg1-medium.jpg");
-        margin-top: -2rem;
-        height: 65rem;
-        
-        background-size: auto 69.8rem;
+        background: url("images/hero/iphonese/testesmall.jpg");
+        height: 50rem;
+        background-size: auto 59.8rem;
         background-position: bottom center;
         background-repeat: no-repeat;
     }
+
     /*iPhone-11 Section*/
     .iphone-11{
         background-size: 100%;
-        background: url("images/hero/iphone-11/bg2-medium.jpg");
-        margin-top: 1rem;
-        height: 65rem;
-        background-size: auto 69.8rem;
+        background: url("images/hero/iphone-11/okkk\ \(1\).jpg");
+        height: 50rem;
+        background-size: auto 45.8rem;
         background-position: bottom center;
         background-repeat: no-repeat;
+        
     }
 
- 
+
+    .title{
+        padding: 3.7rem;
+    }
 
     .title-heading{
-        font-size: 4.4rem;
+        font-size: 3.2rem;
     }
 
     .title-sub-heading{
-        font-size: 2.4rem;
+        font-size: 1.9rem;
+    }
+    
+
+    .title-price{
+        font-size: 1.4rem;
     }
 
-    .cta-link:nth-child(2){
-        margin-left: 2rem;
+    .cta{
+        margin-top: -2.5rem;
     }
 
-}
-
-@media screen and (max-width: 767px){
+    .cta-link{
+        font-size: 1.9rem;
+    }
 
     header{
         height: 4.8rem;
@@ -269,53 +366,5 @@ header{
         margin-left: 1rem;
     }
 
-}
 
-@media screen and (max-width: 735px){
-
-    /*iPhone-se Section*/
-    .iphone-se{
-        background-size: 100%;
-        background: url("images/hero/iphonese/bg1-min.jpg");
-        height: 50rem;
-        background-size: auto 54.8rem;
-        background-position: bottom center;
-        background-repeat: no-repeat;
-    }
-
-    /*iPhone-11 Section*/
-    .iphone-11{
-        background-size: 100%;
-        background: url("images/hero/iphone-11/bg2-min.jpg");
-        height: 50rem;
-        background-size: auto 45.8rem;
-        background-position: bottom center;
-        background-repeat: no-repeat;
-    }
-
-
-    .title{
-        padding: 3.7rem;
-    }
-
-    .title-heading{
-        font-size: 3.2rem;
-    }
-
-    .title-sub-heading{
-        font-size: 1.9rem;
-    }
-    
-
-    .title-price{
-        font-size: 1.4rem;
-    }
-
-    .cta{
-        margin-top: -2.5rem;
-    }
-
-    .cta-link{
-        font-size: 1.9rem;
-    }
 }  
